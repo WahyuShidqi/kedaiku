@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>Kedaiku</title>
+  
+</head>
+
+<body class="bg-white w-full m-0 overflow-x-hidden">
+  <div class="main-container w-full mx-0">
+   <!-- bagian navbar -->
+   <div class=" bg-blue-300 pt-5 pb-5 flex w-full mx-0">
+    <nav class="container flex justify-between text-lg items-center">
+      <div class="max-[950px]:shrink-0"><img class="ml-7" src="img/logo-no-background.png" alt="logo-KedaiKu" width="90" height="56"></div>
+  
+      <div class="searchbar flex items-center bg-blue-300 w-2/4 h-9 p-6 ml-28 rounded-full max-[950px]:hidden">
+        <form action="https://www.google.com/search" method="get" class="flex items-center w-full">
+          <label for="searchbar" class="text-white bg-white h-7 flex items-center rounded-l-lg p-2"><img src="img/search.png" alt="search.png" width="20" height="20"></label>
+          <input id="searchbar" type="text" placeholder=" Search..." name="q" autocomplete="off" class=" w-full block  focus:outline-none rounded-r-lg text-sm p-1">
+        </form>        
+      </div>
+
+         
+      <div class="flex justify-between items-center gap-8 font-semibold text-base">
+        <div class="flex items-center gap-8 max-[600px]:gap-4 max-[600px]:mr-[-1rem] max-[500px]:hidden">
+          <a href="#" class="hover:text-white">Home</a>
+          <a href="#" class="hover:text-white">Menu</a>
+        </div>
+        <div class="flex items-center gap-7 mr-7 max-[600px]:gap-3 max-[500px]:hidden">
+          <a href="#" class="hover:text-white ">Daftar</a>
+          <div>|</div>
+          <a href="#" class="hover:text-white pr-4 ">Login</a>
+        </div>
+        <div class="min-[500px]:hidden max-[500px]:pr-10"><img src="img/menu.png" alt="dropdown" width="30" height="20"></div>
+      </div>
+    </nav>      
+   </div>       
+   
+
+   <!-- bagian Home(tampilan depan) -->
+   <div class=" px-20 container w-full flex items-center pt-[80px] justify-around max-[950px]:flex max-[950px]:flex-col max-[950px]:px-10" style="font-family: Poppins;">
+    <div id="Home" class="font-semibold text-4xl max-[950px]:text-2xl">
+      <h1 class="mb-3">Belanja kebutuhanmu</h1>
+      <h1 class="mb-3">dengan <span class="text-blue-400">Kedaiku</span></h1>
+      
+      <div class="dynamic-text overflow-hidden h-7 md:h-[2.50rem] relative">
+        <span style="animation-delay: 0.5s" class="item text-green-600">kapanpun</span>
+        <span style="animation-delay: 3.5s" class="item text-green-600">dimanapun</span>
+        <span style="animation-delay: 6.5s" class="item text-green-600">diskon 25%</span>
+      </div>
+      
+      <p class="text-base font-normal max-w-md pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad porro incidunt veniam dolore, dignissimos officia, nemo odio aperiam modi repudiandae ipsa rem, necessitatibus ipsam magnam hic quo temporibus nobis fugiat.</p>
+      <div class="button mt-2">
+        <a href="#" class="text-base text-white bg-blue-400 hover:bg-blue-500 rounded-md font-semibold py-2 px-5">Lihat barang</a>
+      </div>
+    </div>
+    
+    <div class="image-container max-[950px]:mt-5">
+      <img src="img/shop basket.png" alt="shop-basket" width="550" height="300" >
+    </div>
+   </div>
+   
+   
+   
+    
+   <!-- Bagian menu (none) -->
+   <div id="Menu"></div>
+   <!-- bagian kontak (none) -->
+   <div id="Contact-us"></div>
+  </div>
+ 
+</body>
+</html>
